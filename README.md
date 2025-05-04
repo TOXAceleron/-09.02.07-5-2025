@@ -26,6 +26,7 @@
 Для этого выберете БД вашу БД нажав на неё ![image](https://github.com/user-attachments/assets/61c34e8c-20b6-4e60-af0c-f4c74c7ec4f8)
 
 и после во вкладке SQL напишите следующий запрос:
+
 SELECT COUNT(CASE WHEN RoomStatus = 'занят' THEN 1 END)*100.0 / COUNT(*)
 AS 'percent'
 FROM RoomStock
