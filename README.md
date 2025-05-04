@@ -27,7 +27,7 @@
 
 и после во вкладке SQL напишите следующий запрос:
 
-SELECT COUNT(CASE WHEN RoomStatus = 'занят' THEN 1 END)/*100.0 / COUNT(/*)
+SELECT COUNT(CASE WHEN RoomStatus = 'занят' THEN 1 END)/n*100.0 / COUNT(/n*)
 AS 'percent'
 FROM RoomStock
 
