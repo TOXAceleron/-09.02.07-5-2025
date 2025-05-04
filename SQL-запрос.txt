@@ -1,0 +1,3 @@
+SELECT COUNT(CASE WHEN RoomStatus = 'занят' THEN 1 END)*100.0 / COUNT(*)
+AS 'percent'
+FROM RoomStock
